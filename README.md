@@ -7,7 +7,7 @@
 Через CocoaPods. Добавляем наш репозиторий с подспеками и подключаем.
 
 ```
-source 'https://github.com/Gimungagap/podspecs.git'
+source 'https://github.com/elegion/ios-podspecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 pod 'ELNHTTPNetworking'
