@@ -2,6 +2,17 @@
 
 Базовый сетевой слой для работы через HTTP на основе AFNetworking/Mantle/OHHTTPStubs. ELNHTTPClient оборачивает AFHTTPSessionManager и позволяет его настраивать и работать с NSURLSessionDataTask. ELNHTTPStubManager позволяет добавлять заглушки сетевых методов.
 
+###Подключение
+
+Через CocoaPods. Добавляем наш репозиторий с подспеками и подключаем.
+
+```
+source 'https://github.com/Gimungagap/podspecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+pod 'ELNHTTPNetworking'
+```
+
 ###Использование
 
 Для использования всего и сразу есть общий хедер ELNHTTPNetworking.h.
