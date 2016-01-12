@@ -4,7 +4,7 @@
 
 ###Подключение
 
-Через CocoaPods. Добавляем наш репозиторий с подспеками и подключаем.
+Через CocoaPods:
 
 ```
 source 'https://github.com/elegion/ios-podspecs.git'
