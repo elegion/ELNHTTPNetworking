@@ -31,6 +31,6 @@ pod 'ELNHTTPNetworking'
 #####Реализация заглушек  
 С помощью ELNHTTPStubManager можно добавлять заглушки для запросов.  
   
-Есть реализация протокола по умолчанию: ELNDefaultHTTPStubManager. В данной реализации класс заглушки находится по имени запроса с добавлением "Stub" в конце (ELNAnyRequest -> ELNAnyRequestStub). Реализацией по умолчанию поддерживаются типы заглушек: NSString, id<MTLJSONSerializing>, NSError, OHHTTPStubsResponse, NSArray<MTLModel *>.  
+Есть реализация протокола по умолчанию: ELNDefaultHTTPStubManager. В данной реализации класс заглушки находится по имени запроса с добавлением "Stub" в конце (ELNAnyRequest -> ELNAnyRequestStub). Реализацией по умолчанию поддерживаются типы заглушек: NSString, id\<MTLJSONSerializing>, NSError, OHHTTPStubsResponse, NSArray\<MTLModel *>.  
   
 Для определения состояния приложения может потребоваться использовать контексты. Чтобы определить, какую заглушку возвращать, можно определять состояние приложения с помощью контекстов. Для этого нужно передать необходимые данные в stub manager и реализовать метод -contextForRequest:.
