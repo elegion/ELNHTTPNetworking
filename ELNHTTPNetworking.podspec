@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ELNHTTPNetworking"
-  s.version      = "0.0.0"
+  s.version      = "0.0.1"
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/elegion/ios-pods-ELNHTTPNetworking.git", :tag => "v#{s.version}" }
   s.source_files = "lib"
