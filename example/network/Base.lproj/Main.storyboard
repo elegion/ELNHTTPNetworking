@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Auth Controller-->
@@ -35,8 +36,41 @@
                     <view key="view" contentMode="scaleToFill" id="9bO-qF-thc">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJ1-qP-9B0" userLabel="nameLabel">
+                                <rect key="frame" x="10" y="30" width="580" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="128" translatesAutoresizingMaskIntoConstraints="NO" id="XKo-dP-S93" userLabel="imageView">
+                                <rect key="frame" x="30" y="40" width="540" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jG-1K-Xe3" userLabel="refreshButton">
+                                <rect key="frame" x="274" y="178" width="53" height="30"/>
+                                <state key="normal" title="Refresh"/>
+                                <connections>
+                                    <action selector="loadData" destination="Qyt-4X-Sj4" eventType="touchUpInside" id="OaF-kK-Kjk"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.68235294120000001" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="XKo-dP-S93" secondAttribute="trailing" constant="10" id="Dqj-dd-7DF"/>
+                            <constraint firstItem="3jG-1K-Xe3" firstAttribute="centerX" secondItem="9bO-qF-thc" secondAttribute="centerX" id="FWG-GQ-hd4"/>
+                            <constraint firstItem="zJ1-qP-9B0" firstAttribute="leading" secondItem="9bO-qF-thc" secondAttribute="leading" constant="10" id="QtT-r3-xQS"/>
+                            <constraint firstItem="XKo-dP-S93" firstAttribute="top" secondItem="zJ1-qP-9B0" secondAttribute="bottom" constant="10" id="Yd7-Qv-6UE"/>
+                            <constraint firstItem="3jG-1K-Xe3" firstAttribute="top" secondItem="XKo-dP-S93" secondAttribute="bottom" constant="10" id="c98-kH-jBk"/>
+                            <constraint firstItem="XKo-dP-S93" firstAttribute="leading" secondItem="9bO-qF-thc" secondAttribute="leadingMargin" constant="10" id="lVF-Dk-pjk"/>
+                            <constraint firstItem="zJ1-qP-9B0" firstAttribute="top" secondItem="6aZ-iV-9ek" secondAttribute="bottom" constant="10" id="m29-fd-1NV"/>
+                            <constraint firstAttribute="trailing" secondItem="zJ1-qP-9B0" secondAttribute="trailing" constant="10" id="zsR-Gv-WpK"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="XKo-dP-S93" id="ELH-vd-E0L"/>
+                        <outlet property="nameLabel" destination="zJ1-qP-9B0" id="6am-0r-zqp"/>
+                        <outlet property="refreshButton" destination="3jG-1K-Xe3" id="Bvc-98-bbA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JDs-RM-yKj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -11,6 +11,6 @@
 @interface MTGHUser : MTLModel <MTLJSONSerializing>
 
 @property (copy, nonatomic) NSString *login;
-@property (copy, nonatomic) NSString *avatarUrl;
+@property (copy, nonatomic) NSURL *avatarUrl;
 
 @end

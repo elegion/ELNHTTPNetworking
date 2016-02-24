@@ -15,6 +15,10 @@
 
 @interface MTUserController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIButton *refreshButton;
+
 @end
 
 @implementation MTUserController
@@ -30,11 +34,18 @@
 
 #pragma mark - Logics
 
-- (void)loadData
+- (IBAction)loadData
 {
-    [[MTHTTPClient sharedInstance] sendRequest:[MTGHUserRequest new] withCompletion:^(id responseObject, NSError *error, ELNAPIResponseContext *context) {
-        NSLog(@"Response: %@", responseObject);
-        NSLog(@"Error: %@", error);
+    [[MTHTTPClient sharedInstance] sendRequest:[MTGHUserRequest new] withCompletion:^(MTGHUser *responseObject, NSError *error, ELNAPIResponseContext *context) {
+
+        self.nameLabel.text = responseObject.login;
+        
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+            UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:responseObject.avatarUrl]];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.imageView.image = image;
+            });
+        });
     }];
 }
 

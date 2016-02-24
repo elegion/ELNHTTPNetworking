@@ -18,4 +18,9 @@
              @"login" : @"login"};
 }
 
+- (id)avatarUrlJSONTransformer
+{
+    return [NSValueTransformer valueTransformerForName:MTLURLValueTransformerName];
+}
+
 @end
