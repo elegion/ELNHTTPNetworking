@@ -26,17 +26,6 @@
     return instance;
 }
 
-#pragma mark - ELNHTTPClient
-
-- (AFHTTPRequestSerializer *)requestSerializer
-{
-    AFHTTPRequestSerializer *requestSerializer = [AFHTTPRequestSerializer serializer];
-    requestSerializer.HTTPMethodsEncodingParametersInURI = [NSSet setWithObjects:@"GET", @"POST", nil];
-    [requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
-    [requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    return requestSerializer;
-}
-
 #pragma mark - Public
 
 - (void)setGHAPIToken:(NSString *)GHAPIToken

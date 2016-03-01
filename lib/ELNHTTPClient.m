@@ -50,16 +50,16 @@ static dispatch_queue_t ELNResponseSerializationQueue() {
         _baseURL = configuration.baseURL;
         
         NSURLSessionConfiguration *sessionConfiguration = [NSURLSessionConfiguration defaultSessionConfiguration];
-        if ([self respondsToSelector:@selector(requestDefaultTimeout)]) {
-            sessionConfiguration.timeoutIntervalForRequest = [self requestDefaultTimeout];
+        if ([configuration respondsToSelector:@selector(requestDefaultTimeout)]) {
+            sessionConfiguration.timeoutIntervalForRequest = [configuration requestDefaultTimeout];
         }
         
         _sessionManager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:sessionConfiguration];
-        if ([self respondsToSelector:@selector(requestSerializer)]) {
-            _sessionManager.requestSerializer = [self requestSerializer];
+        if ([configuration respondsToSelector:@selector(requestSerializer)]) {
+            _sessionManager.requestSerializer = [configuration requestSerializer];
         }
-        if ([self respondsToSelector:@selector(responseSerializer)]) {
-            _sessionManager.responseSerializer = [self responseSerializer];
+        if ([configuration respondsToSelector:@selector(responseSerializer)]) {
+            _sessionManager.responseSerializer = [configuration responseSerializer];
         }
         
         if ([configuration respondsToSelector:@selector(stubManager)]) {

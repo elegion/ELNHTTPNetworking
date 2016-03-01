@@ -6,6 +6,7 @@
 //  Copyright © 2016 e-Legion. All rights reserved.
 //
 
+#import <AFNetworking.h>
 #import "MTHTTPClientConfiguration.h"
 #import "ELNDefaultHTTPStubManager.h"
 
@@ -14,6 +15,15 @@
 - (NSString *)baseURL
 {
     return @"https://api.github.com";
+}
+
+- (AFHTTPRequestSerializer *)requestSerializer
+{
+    AFHTTPRequestSerializer *requestSerializer = [AFHTTPRequestSerializer serializer];
+    requestSerializer.HTTPMethodsEncodingParametersInURI = [NSSet setWithObjects:@"GET", @"POST", nil];
+    [requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+    [requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    return requestSerializer;
 }
 
 //// uncomment to enable stubs
