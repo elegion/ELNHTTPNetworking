@@ -26,6 +26,12 @@
     return requestSerializer;
 }
 
+//// uncomment to execute requests on background queue
+//- (dispatch_queue_t)completionQueue
+//{
+//    return dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0);
+//}
+
 //// uncomment to enable stubs
 //- (id<ELNHTTPStubManager>)stubManager
 //{

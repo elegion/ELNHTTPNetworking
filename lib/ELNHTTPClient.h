@@ -31,7 +31,8 @@ typedef void (^ELNHTTPRequestCompletionBlock)(id responseObject, NSError *error,
 @protocol ELNHTTPClient <NSObject>
 
 @optional
-/** 
+
+/**
  Добавление дополнительных параметров в запрос. Предназначено для добавления 
  общих параметров для всех запросов или определённых групп (например, POST).
  */

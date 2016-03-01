@@ -34,6 +34,8 @@
  Может быть изменено для отдельного запроса (см. ELNHTTPRequest).
  */
 - (NSTimeInterval)requestDefaultTimeout;
+/// Очередь, на которой выполняются completion блоки.
+- (dispatch_queue_t)completionQueue;
 /// Менеджер для моков.
 @property (readonly, nonatomic) id<ELNHTTPStubManager> stubManager;
 
