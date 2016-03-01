@@ -7,7 +7,7 @@
 //
 
 #import "MTHTTPClientConfiguration.h"
-#import <ELNDefaultHTTPStubManager.h>
+#import "ELNDefaultHTTPStubManager.h"
 
 @implementation MTHTTPClientConfiguration
 
