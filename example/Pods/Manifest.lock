@@ -31,6 +31,7 @@ PODS:
   - OHHTTPStubs/NSURLSession (4.7.1):
     - OHHTTPStubs/Core
   - OHHTTPStubs/OHPathHelpers (4.7.1)
+  - PINCache (2.2.2)
   - UICKeyChainStore (2.1.0)
 
 DEPENDENCIES:
@@ -38,6 +39,7 @@ DEPENDENCIES:
   - Mantle (~> 2.0.6)
   - NSURL+QueryDictionary
   - OHHTTPStubs (~> 4.7.0)
+  - PINCache (~> 2.2)
   - UICKeyChainStore
 
 SPEC CHECKSUMS:
@@ -45,6 +47,7 @@ SPEC CHECKSUMS:
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   NSURL+QueryDictionary: dd0a5fec689a9b4780b6fa0e0225c01ca3ea653e
   OHHTTPStubs: f7d1604d04d37d055460c0ef9af01bb249ded0fa
+  PINCache: 078426d356ab95ef875e9e62e5c35a2ea3333c28
   UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
 
 COCOAPODS: 0.39.0
