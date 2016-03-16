@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/elegion/ios-pods-ELNHTTPNetworking.git", :tag => "v#{s.version}" }
   s.source_files = "lib"
   s.requires_arc = true
-  s.summary      = "e-Legion network client for HTTP on top of AFNetworking/Mantle/OHHTTPStubs"
+  s.summary      = "e-Legion network client for HTTP on top of AFNetworking/Mantle/OHHTTPStubs/PINCache"
   s.authors		   = "."
   s.license		   = "MIT"
   s.homepage     = "https://github.com/elegion/ios-pods-ELNHTTPNetworking"
