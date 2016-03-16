@@ -9,6 +9,7 @@
 #import <AFNetworking.h>
 #import "MTHTTPClientConfiguration.h"
 #import "ELNDefaultHTTPStubManager.h"
+#import "ELNDefaultHTTPCacheManager.h"
 
 @implementation MTHTTPClientConfiguration
 
@@ -37,5 +38,10 @@
 //{
 //    return [ELNDefaultHTTPStubManager new];
 //}
+
+- (id<ELNHTTPCacheManager>)cacheManager
+{
+    return [ELNDefaultHTTPCacheManager new];
+}
 
 @end

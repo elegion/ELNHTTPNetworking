@@ -28,4 +28,9 @@
     return [MTGHUser class];
 }
 
+- (BOOL)isCached
+{
+    return YES;
+}
+
 @end
