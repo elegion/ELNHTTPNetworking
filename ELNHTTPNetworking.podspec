@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.summary      = "e-Legion network client for HTTP on top of AFNetworking/Mantle/OHHTTPStubs"
   s.authors		   = "."
-  s.license		   = "."
   s.homepage     = "."
+  s.license		   = "MIT"
   
   s.dependency   "AFNetworking", "~> 3.0.4"
   s.dependency   "Mantle", "~> 2.0.6"
