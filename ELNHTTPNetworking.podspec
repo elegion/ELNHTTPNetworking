@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
   s.dependency   "AFNetworking", "~> 3.0.4"
   s.dependency   "Mantle", "~> 2.0.6"
   s.dependency   "OHHTTPStubs", "~> 4.7.0"
+  s.dependency   "PINCache", "~> 2.2"
 
 end
