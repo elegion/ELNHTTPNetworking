@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370C0D841C999A1200E49470 /* ELNDefaultHTTPCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 370C0D831C999A1200E49470 /* ELNDefaultHTTPCacheManager.m */; };
 		3712525A1C440DDC00C8AF79 /* MTHTTPClientConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 371252591C440DDC00C8AF79 /* MTHTTPClientConfiguration.m */; };
 		3712525D1C440EAB00C8AF79 /* MTHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3712525C1C440EAB00C8AF79 /* MTHTTPClient.m */; };
 		371252611C441C1A00C8AF79 /* MTAccessConfirmationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 371252601C441C1A00C8AF79 /* MTAccessConfirmationRequest.m */; };
@@ -26,7 +27,6 @@
 		37D8D1D21C85D62E00CD9216 /* ELNAPIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1C11C85D62E00CD9216 /* ELNAPIUtils.m */; };
 		37D8D1D31C85D62E00CD9216 /* ELNDefaultHTTPStubManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1C31C85D62E00CD9216 /* ELNDefaultHTTPStubManager.m */; };
 		37D8D1D41C85D62E00CD9216 /* ELNHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1C51C85D62E00CD9216 /* ELNHTTPClient.m */; };
-		37D8D1D51C85D62E00CD9216 /* ELNHTTPStubManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1CB1C85D62E00CD9216 /* ELNHTTPStubManager.m */; };
 		37D8D1D61C85D62E00CD9216 /* ELNJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1CD1C85D62E00CD9216 /* ELNJSONSerialization.m */; };
 		37D8D1D71C85D62E00CD9216 /* ELNResponseMappingResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1CF1C85D62E00CD9216 /* ELNResponseMappingResult.m */; };
 		37EC512A1C4519A800032F79 /* MTGHUserRequestStub.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EC51291C4519A800032F79 /* MTGHUserRequestStub.m */; };
@@ -34,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		370C0D7C1C99922200E49470 /* ELNHTTPCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPCacheManager.h; sourceTree = "<group>"; };
+		370C0D821C999A1200E49470 /* ELNDefaultHTTPCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNDefaultHTTPCacheManager.h; sourceTree = "<group>"; };
+		370C0D831C999A1200E49470 /* ELNDefaultHTTPCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNDefaultHTTPCacheManager.m; sourceTree = "<group>"; };
 		371252581C440DDC00C8AF79 /* MTHTTPClientConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHTTPClientConfiguration.h; sourceTree = "<group>"; };
 		371252591C440DDC00C8AF79 /* MTHTTPClientConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHTTPClientConfiguration.m; sourceTree = "<group>"; };
 		3712525B1C440EAB00C8AF79 /* MTHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHTTPClient.h; sourceTree = "<group>"; };
@@ -75,7 +78,6 @@
 		37D8D1C81C85D62E00CD9216 /* ELNHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPRequest.h; sourceTree = "<group>"; };
 		37D8D1C91C85D62E00CD9216 /* ELNHTTPRequestStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPRequestStub.h; sourceTree = "<group>"; };
 		37D8D1CA1C85D62E00CD9216 /* ELNHTTPStubManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPStubManager.h; sourceTree = "<group>"; };
-		37D8D1CB1C85D62E00CD9216 /* ELNHTTPStubManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNHTTPStubManager.m; sourceTree = "<group>"; };
 		37D8D1CC1C85D62E00CD9216 /* ELNJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNJSONSerialization.h; sourceTree = "<group>"; };
 		37D8D1CD1C85D62E00CD9216 /* ELNJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNJSONSerialization.m; sourceTree = "<group>"; };
 		37D8D1CE1C85D62E00CD9216 /* ELNResponseMappingResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNResponseMappingResult.h; sourceTree = "<group>"; };
@@ -105,6 +107,40 @@
 				7C65451F2C6602ECAF65E69E /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		370C0D7F1C99943000E49470 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				37D8D1C21C85D62E00CD9216 /* ELNDefaultHTTPStubManager.h */,
+				37D8D1C31C85D62E00CD9216 /* ELNDefaultHTTPStubManager.m */,
+				37D8D1C91C85D62E00CD9216 /* ELNHTTPRequestStub.h */,
+				37D8D1CA1C85D62E00CD9216 /* ELNHTTPStubManager.h */,
+			);
+			name = Stubs;
+			sourceTree = "<group>";
+		};
+		370C0D801C99945C00E49470 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				370C0D7C1C99922200E49470 /* ELNHTTPCacheManager.h */,
+				370C0D821C999A1200E49470 /* ELNDefaultHTTPCacheManager.h */,
+				370C0D831C999A1200E49470 /* ELNDefaultHTTPCacheManager.m */,
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+		370C0D811C99948C00E49470 /* Response serialization */ = {
+			isa = PBXGroup;
+			children = (
+				37D8D1BE1C85D62E00CD9216 /* ELNAPIResponseContext.h */,
+				37D8D1BF1C85D62E00CD9216 /* ELNAPIResponseContext.m */,
+				37D8D1CC1C85D62E00CD9216 /* ELNJSONSerialization.h */,
+				37D8D1CD1C85D62E00CD9216 /* ELNJSONSerialization.m */,
+				37D8D1CE1C85D62E00CD9216 /* ELNResponseMappingResult.h */,
+				37D8D1CF1C85D62E00CD9216 /* ELNResponseMappingResult.m */,
+			);
+			name = "Response serialization";
 			sourceTree = "<group>";
 		};
 		371252571C440D5000C8AF79 /* Client */ = {
@@ -242,26 +278,18 @@
 		37D8D1BB1C85D62E00CD9216 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				370C0D801C99945C00E49470 /* Cache */,
+				370C0D811C99948C00E49470 /* Response serialization */,
+				370C0D7F1C99943000E49470 /* Stubs */,
 				37D8D1BC1C85D62E00CD9216 /* ELNAPIConstants.h */,
-				37D8D1BD1C85D62E00CD9216 /* ELNAPIConstants.m */,
-				37D8D1BE1C85D62E00CD9216 /* ELNAPIResponseContext.h */,
-				37D8D1BF1C85D62E00CD9216 /* ELNAPIResponseContext.m */,
 				37D8D1C01C85D62E00CD9216 /* ELNAPIUtils.h */,
-				37D8D1C11C85D62E00CD9216 /* ELNAPIUtils.m */,
-				37D8D1C21C85D62E00CD9216 /* ELNDefaultHTTPStubManager.h */,
-				37D8D1C31C85D62E00CD9216 /* ELNDefaultHTTPStubManager.m */,
 				37D8D1C41C85D62E00CD9216 /* ELNHTTPClient.h */,
-				37D8D1C51C85D62E00CD9216 /* ELNHTTPClient.m */,
 				37D8D1C61C85D62E00CD9216 /* ELNHTTPClientConfiguration.h */,
 				37D8D1C71C85D62E00CD9216 /* ELNHTTPNetworking.h */,
 				37D8D1C81C85D62E00CD9216 /* ELNHTTPRequest.h */,
-				37D8D1C91C85D62E00CD9216 /* ELNHTTPRequestStub.h */,
-				37D8D1CA1C85D62E00CD9216 /* ELNHTTPStubManager.h */,
-				37D8D1CB1C85D62E00CD9216 /* ELNHTTPStubManager.m */,
-				37D8D1CC1C85D62E00CD9216 /* ELNJSONSerialization.h */,
-				37D8D1CD1C85D62E00CD9216 /* ELNJSONSerialization.m */,
-				37D8D1CE1C85D62E00CD9216 /* ELNResponseMappingResult.h */,
-				37D8D1CF1C85D62E00CD9216 /* ELNResponseMappingResult.m */,
+				37D8D1BD1C85D62E00CD9216 /* ELNAPIConstants.m */,
+				37D8D1C11C85D62E00CD9216 /* ELNAPIUtils.m */,
+				37D8D1C51C85D62E00CD9216 /* ELNHTTPClient.m */,
 			);
 			name = lib;
 			path = ../../lib;
@@ -420,10 +448,10 @@
 				376C75B31C3BFF29002D511F /* MTSettings.m in Sources */,
 				376C75AD1C3BD93C002D511F /* MTAuthController.m in Sources */,
 				376C75931C3BD74F002D511F /* main.m in Sources */,
+				370C0D841C999A1200E49470 /* ELNDefaultHTTPCacheManager.m in Sources */,
 				37D8D1D71C85D62E00CD9216 /* ELNResponseMappingResult.m in Sources */,
 				3712525A1C440DDC00C8AF79 /* MTHTTPClientConfiguration.m in Sources */,
 				374E032B1C43ECB000C28E78 /* MTGHUserRequest.m in Sources */,
-				37D8D1D51C85D62E00CD9216 /* ELNHTTPStubManager.m in Sources */,
 				376C75B71C3C2E4B002D511F /* MTUserController.m in Sources */,
 				371252611C441C1A00C8AF79 /* MTAccessConfirmationRequest.m in Sources */,
 			);
