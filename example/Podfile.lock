@@ -14,6 +14,11 @@ PODS:
   - AFNetworking/Serialization (3.0.4)
   - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
+  - ELNHTTPNetworking (0.2.0):
+    - AFNetworking (~> 3.0.4)
+    - Mantle (~> 2.0.6)
+    - OHHTTPStubs (~> 4.7.0)
+    - PINCache (~> 2.2)
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
   - Mantle/extobjc (2.0.6)
@@ -35,15 +40,17 @@ PODS:
   - UICKeyChainStore (2.1.0)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.0.4)
-  - Mantle (~> 2.0.6)
+  - ELNHTTPNetworking (from `../`)
   - NSURL+QueryDictionary
-  - OHHTTPStubs (~> 4.7.0)
-  - PINCache (~> 2.2)
   - UICKeyChainStore
+
+EXTERNAL SOURCES:
+  ELNHTTPNetworking:
+    :path: ../
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  ELNHTTPNetworking: 6cb222c43f1174d40f2a94868eb94e4eb0afdd79
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   NSURL+QueryDictionary: dd0a5fec689a9b4780b6fa0e0225c01ca3ea653e
   OHHTTPStubs: f7d1604d04d37d055460c0ef9af01bb249ded0fa

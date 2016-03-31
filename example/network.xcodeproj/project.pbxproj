@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		370C0D841C999A1200E49470 /* ELNDefaultHTTPCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 370C0D831C999A1200E49470 /* ELNDefaultHTTPCacheManager.m */; };
 		3712525A1C440DDC00C8AF79 /* MTHTTPClientConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 371252591C440DDC00C8AF79 /* MTHTTPClientConfiguration.m */; };
 		3712525D1C440EAB00C8AF79 /* MTHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3712525C1C440EAB00C8AF79 /* MTHTTPClient.m */; };
 		371252611C441C1A00C8AF79 /* MTAccessConfirmationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 371252601C441C1A00C8AF79 /* MTAccessConfirmationRequest.m */; };
@@ -22,21 +21,11 @@
 		376C75AD1C3BD93C002D511F /* MTAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376C75AC1C3BD93C002D511F /* MTAuthController.m */; };
 		376C75B31C3BFF29002D511F /* MTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 376C75B21C3BFF29002D511F /* MTSettings.m */; };
 		376C75B71C3C2E4B002D511F /* MTUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376C75B61C3C2E4B002D511F /* MTUserController.m */; };
-		37D8D1D01C85D62E00CD9216 /* ELNAPIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1BD1C85D62E00CD9216 /* ELNAPIConstants.m */; };
-		37D8D1D11C85D62E00CD9216 /* ELNAPIResponseContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1BF1C85D62E00CD9216 /* ELNAPIResponseContext.m */; };
-		37D8D1D21C85D62E00CD9216 /* ELNAPIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1C11C85D62E00CD9216 /* ELNAPIUtils.m */; };
-		37D8D1D31C85D62E00CD9216 /* ELNDefaultHTTPStubManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1C31C85D62E00CD9216 /* ELNDefaultHTTPStubManager.m */; };
-		37D8D1D41C85D62E00CD9216 /* ELNHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1C51C85D62E00CD9216 /* ELNHTTPClient.m */; };
-		37D8D1D61C85D62E00CD9216 /* ELNJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1CD1C85D62E00CD9216 /* ELNJSONSerialization.m */; };
-		37D8D1D71C85D62E00CD9216 /* ELNResponseMappingResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D8D1CF1C85D62E00CD9216 /* ELNResponseMappingResult.m */; };
 		37EC512A1C4519A800032F79 /* MTGHUserRequestStub.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EC51291C4519A800032F79 /* MTGHUserRequestStub.m */; };
 		97D643D1128036D24554BAA3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C65451F2C6602ECAF65E69E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		370C0D7C1C99922200E49470 /* ELNHTTPCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPCacheManager.h; sourceTree = "<group>"; };
-		370C0D821C999A1200E49470 /* ELNDefaultHTTPCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNDefaultHTTPCacheManager.h; sourceTree = "<group>"; };
-		370C0D831C999A1200E49470 /* ELNDefaultHTTPCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNDefaultHTTPCacheManager.m; sourceTree = "<group>"; };
 		371252581C440DDC00C8AF79 /* MTHTTPClientConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHTTPClientConfiguration.h; sourceTree = "<group>"; };
 		371252591C440DDC00C8AF79 /* MTHTTPClientConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHTTPClientConfiguration.m; sourceTree = "<group>"; };
 		3712525B1C440EAB00C8AF79 /* MTHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHTTPClient.h; sourceTree = "<group>"; };
@@ -63,25 +52,6 @@
 		376C75B21C3BFF29002D511F /* MTSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSettings.m; sourceTree = "<group>"; };
 		376C75B51C3C2E4B002D511F /* MTUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTUserController.h; sourceTree = "<group>"; };
 		376C75B61C3C2E4B002D511F /* MTUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTUserController.m; sourceTree = "<group>"; };
-		37D8D1BC1C85D62E00CD9216 /* ELNAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNAPIConstants.h; sourceTree = "<group>"; };
-		37D8D1BD1C85D62E00CD9216 /* ELNAPIConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNAPIConstants.m; sourceTree = "<group>"; };
-		37D8D1BE1C85D62E00CD9216 /* ELNAPIResponseContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNAPIResponseContext.h; sourceTree = "<group>"; };
-		37D8D1BF1C85D62E00CD9216 /* ELNAPIResponseContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNAPIResponseContext.m; sourceTree = "<group>"; };
-		37D8D1C01C85D62E00CD9216 /* ELNAPIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNAPIUtils.h; sourceTree = "<group>"; };
-		37D8D1C11C85D62E00CD9216 /* ELNAPIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNAPIUtils.m; sourceTree = "<group>"; };
-		37D8D1C21C85D62E00CD9216 /* ELNDefaultHTTPStubManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNDefaultHTTPStubManager.h; sourceTree = "<group>"; };
-		37D8D1C31C85D62E00CD9216 /* ELNDefaultHTTPStubManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNDefaultHTTPStubManager.m; sourceTree = "<group>"; };
-		37D8D1C41C85D62E00CD9216 /* ELNHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPClient.h; sourceTree = "<group>"; };
-		37D8D1C51C85D62E00CD9216 /* ELNHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNHTTPClient.m; sourceTree = "<group>"; };
-		37D8D1C61C85D62E00CD9216 /* ELNHTTPClientConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPClientConfiguration.h; sourceTree = "<group>"; };
-		37D8D1C71C85D62E00CD9216 /* ELNHTTPNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPNetworking.h; sourceTree = "<group>"; };
-		37D8D1C81C85D62E00CD9216 /* ELNHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPRequest.h; sourceTree = "<group>"; };
-		37D8D1C91C85D62E00CD9216 /* ELNHTTPRequestStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPRequestStub.h; sourceTree = "<group>"; };
-		37D8D1CA1C85D62E00CD9216 /* ELNHTTPStubManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNHTTPStubManager.h; sourceTree = "<group>"; };
-		37D8D1CC1C85D62E00CD9216 /* ELNJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNJSONSerialization.h; sourceTree = "<group>"; };
-		37D8D1CD1C85D62E00CD9216 /* ELNJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNJSONSerialization.m; sourceTree = "<group>"; };
-		37D8D1CE1C85D62E00CD9216 /* ELNResponseMappingResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELNResponseMappingResult.h; sourceTree = "<group>"; };
-		37D8D1CF1C85D62E00CD9216 /* ELNResponseMappingResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELNResponseMappingResult.m; sourceTree = "<group>"; };
 		37EC51281C4519A800032F79 /* MTGHUserRequestStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGHUserRequestStub.h; sourceTree = "<group>"; };
 		37EC51291C4519A800032F79 /* MTGHUserRequestStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGHUserRequestStub.m; sourceTree = "<group>"; };
 		7C65451F2C6602ECAF65E69E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,40 +79,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		370C0D7F1C99943000E49470 /* Stubs */ = {
-			isa = PBXGroup;
-			children = (
-				37D8D1C21C85D62E00CD9216 /* ELNDefaultHTTPStubManager.h */,
-				37D8D1C31C85D62E00CD9216 /* ELNDefaultHTTPStubManager.m */,
-				37D8D1C91C85D62E00CD9216 /* ELNHTTPRequestStub.h */,
-				37D8D1CA1C85D62E00CD9216 /* ELNHTTPStubManager.h */,
-			);
-			name = Stubs;
-			sourceTree = "<group>";
-		};
-		370C0D801C99945C00E49470 /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-				370C0D7C1C99922200E49470 /* ELNHTTPCacheManager.h */,
-				370C0D821C999A1200E49470 /* ELNDefaultHTTPCacheManager.h */,
-				370C0D831C999A1200E49470 /* ELNDefaultHTTPCacheManager.m */,
-			);
-			name = Cache;
-			sourceTree = "<group>";
-		};
-		370C0D811C99948C00E49470 /* Response serialization */ = {
-			isa = PBXGroup;
-			children = (
-				37D8D1BE1C85D62E00CD9216 /* ELNAPIResponseContext.h */,
-				37D8D1BF1C85D62E00CD9216 /* ELNAPIResponseContext.m */,
-				37D8D1CC1C85D62E00CD9216 /* ELNJSONSerialization.h */,
-				37D8D1CD1C85D62E00CD9216 /* ELNJSONSerialization.m */,
-				37D8D1CE1C85D62E00CD9216 /* ELNResponseMappingResult.h */,
-				37D8D1CF1C85D62E00CD9216 /* ELNResponseMappingResult.m */,
-			);
-			name = "Response serialization";
-			sourceTree = "<group>";
-		};
 		371252571C440D5000C8AF79 /* Client */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +93,6 @@
 		3743CF521C625386001C8F4D /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				37D8D1BB1C85D62E00CD9216 /* lib */,
 				371252571C440D5000C8AF79 /* Client */,
 				374E031E1C43DC7600C28E78 /* Models */,
 				374E03281C43EC9100C28E78 /* Requests */,
@@ -273,26 +208,6 @@
 				376C759A1C3BD74F002D511F /* Main.storyboard */,
 			);
 			name = App;
-			sourceTree = "<group>";
-		};
-		37D8D1BB1C85D62E00CD9216 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				370C0D801C99945C00E49470 /* Cache */,
-				370C0D811C99948C00E49470 /* Response serialization */,
-				370C0D7F1C99943000E49470 /* Stubs */,
-				37D8D1BC1C85D62E00CD9216 /* ELNAPIConstants.h */,
-				37D8D1C01C85D62E00CD9216 /* ELNAPIUtils.h */,
-				37D8D1C41C85D62E00CD9216 /* ELNHTTPClient.h */,
-				37D8D1C61C85D62E00CD9216 /* ELNHTTPClientConfiguration.h */,
-				37D8D1C71C85D62E00CD9216 /* ELNHTTPNetworking.h */,
-				37D8D1C81C85D62E00CD9216 /* ELNHTTPRequest.h */,
-				37D8D1BD1C85D62E00CD9216 /* ELNAPIConstants.m */,
-				37D8D1C11C85D62E00CD9216 /* ELNAPIUtils.m */,
-				37D8D1C51C85D62E00CD9216 /* ELNHTTPClient.m */,
-			);
-			name = lib;
-			path = ../../lib;
 			sourceTree = "<group>";
 		};
 		37EC51271C45199000032F79 /* Stubs */ = {
@@ -436,20 +351,12 @@
 			files = (
 				37EC512A1C4519A800032F79 /* MTGHUserRequestStub.m in Sources */,
 				374E03211C43DF2E00C28E78 /* MTGHUser.m in Sources */,
-				37D8D1D61C85D62E00CD9216 /* ELNJSONSerialization.m in Sources */,
-				37D8D1D41C85D62E00CD9216 /* ELNHTTPClient.m in Sources */,
 				3712525D1C440EAB00C8AF79 /* MTHTTPClient.m in Sources */,
-				37D8D1D31C85D62E00CD9216 /* ELNDefaultHTTPStubManager.m in Sources */,
-				37D8D1D11C85D62E00CD9216 /* ELNAPIResponseContext.m in Sources */,
 				371252641C44206B00C8AF79 /* MTAccessConfirmationResponse.m in Sources */,
 				376C75961C3BD74F002D511F /* AppDelegate.m in Sources */,
-				37D8D1D01C85D62E00CD9216 /* ELNAPIConstants.m in Sources */,
-				37D8D1D21C85D62E00CD9216 /* ELNAPIUtils.m in Sources */,
 				376C75B31C3BFF29002D511F /* MTSettings.m in Sources */,
 				376C75AD1C3BD93C002D511F /* MTAuthController.m in Sources */,
 				376C75931C3BD74F002D511F /* main.m in Sources */,
-				370C0D841C999A1200E49470 /* ELNDefaultHTTPCacheManager.m in Sources */,
-				37D8D1D71C85D62E00CD9216 /* ELNResponseMappingResult.m in Sources */,
 				3712525A1C440DDC00C8AF79 /* MTHTTPClientConfiguration.m in Sources */,
 				374E032B1C43ECB000C28E78 /* MTGHUserRequest.m in Sources */,
 				376C75B71C3C2E4B002D511F /* MTUserController.m in Sources */,
