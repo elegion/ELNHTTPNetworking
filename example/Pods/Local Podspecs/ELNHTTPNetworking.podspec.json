@@ -1,6 +1,6 @@
 {
   "name": "ELNHTTPNetworking",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "summary": "e-Legion network client for HTTP on top of AFNetworking/Mantle/OHHTTPStubs/PINCache",
   "homepage": "https://github.com/elegion/ios-ELNHTTPNetworking",
   "authors": ".",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/elegion/ios-ELNHTTPNetworking.git",
-    "tag": "v0.2.0"
+    "tag": "v0.2.1"
   },
   "source_files": "Source/**/*",
   "dependencies": {
