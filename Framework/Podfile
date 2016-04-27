@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/elegion/ios-podspecs.git'
+
+target 'ELNHTTPNetworking' do
+
+  pod   'AFNetworking', '~> 3.0.4'
+  pod   'Mantle', '~> 2.0.6'
+  pod   'OHHTTPStubs', '~> 4.7.0'
+  pod   'PINCache', '~> 2.2'
+
+end
+
+target 'Tests' do
+
+  pod 'ELNTestUtils', '~> 0.0.1'
+
+end
