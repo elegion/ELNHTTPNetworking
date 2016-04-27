@@ -38,7 +38,7 @@ static NSString *ELNDefaultHTTPCacheManagerKeyFromRequest(id<ELNHTTPRequest>requ
 
 - (instancetype)init
 {
-    if (self = [super init]) {
+    if ((self = [super init])) {
         self.cache = [[PINCache alloc] initWithName:NSStringFromClass([self class])];
     }
     return self;

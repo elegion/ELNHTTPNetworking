@@ -70,7 +70,7 @@ BOOL ELNHTTPClientIsErrorNetwork(NSError* error) {
 
 - (instancetype)initWithConfiguration:(id<ELNHTTPClientConfiguration>)configuration
 {
-    if (self = [super init])
+    if ((self = [super init]))
     {
         _baseURL = configuration.baseURL;
         
@@ -103,7 +103,7 @@ BOOL ELNHTTPClientIsErrorNetwork(NSError* error) {
 
 - (NSURLSessionTask *)sendRequest:(id<ELNHTTPRequest>)request withCompletion:(ELNHTTPRequestCompletionBlock)completion
 {
-    __weak typeof(self) weakSelf = self;
+    __weak __typeof(self) weakSelf = self;
 
     // Prepare request
     

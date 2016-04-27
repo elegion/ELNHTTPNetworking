@@ -14,7 +14,7 @@
 
 - (instancetype)initWithRequest:(NSURLRequest *)request response:(NSURLResponse *)response
 {
-    if (self = [super init]) {
+    if ((self = [super init])) {
         _request = request;
         _response = response;
     }
@@ -24,7 +24,7 @@
 #pragma mark - NSCopying
 
 - (id)copyWithZone:(NSZone *)zone {
-    typeof(self) copy = [self.class new];
+    __typeof(self) copy = [self.class new];
     copy.request = self.request;
     copy.response = self.response;
     
@@ -36,7 +36,7 @@
 - (NSString *)description {
     NSDictionary *properties = @{NSStringFromSelector(@selector(request)): self.request ?: @"<nil>",
                                  NSStringFromSelector(@selector(response)): self.response ?: @"<nil>"};
-    return [NSString stringWithFormat:@"<%@: %p %@>", NSStringFromClass(self.class), self, properties];
+    return [NSString stringWithFormat:@"<%@: %p %@>", NSStringFromClass(self.class), (void *)self, properties];
 }
 
 @end

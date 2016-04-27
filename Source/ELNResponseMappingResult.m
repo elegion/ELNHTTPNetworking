@@ -12,7 +12,7 @@
 
 - (instancetype)initWithResponseObject:(id)responseObject error:(NSError *)error
 {
-    if (self = [super init]) {
+    if ((self = [super init])) {
         _responseObject = responseObject;
         _error = error;
     }
