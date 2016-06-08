@@ -1,6 +1,5 @@
 //
 //  ELNAPIStub.h
-//  Megafon
 //
 //  Created by Sergey Rakov on 18.11.15.
 //  Copyright © 2015 e-legion. All rights reserved.
